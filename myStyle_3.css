@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .box {
+    display: inline-block;
+    height: 150px;  /* Задана висота блоків */
+    width: 19.79%;  /* Розділіть ширину на 5 для 5 елементів */
+    box-sizing: border-box; /* Включаємо рамку в розміри */
+    border: 2px dashed blue; /* Рамка: пунктирна, синього кольору */
+    background: linear-gradient(to left, #FFFF00, #008000); /* Лінійний градієнт від правого до лівого краю */
+  }
+  
